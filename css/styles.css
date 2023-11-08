@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+    overflow: hidden;
+}
+
+/* Add some styles for body*/
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #FAFAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    position: relative;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.09);
+    width: 25%;
+    height: auto;
+    padding: 16px 16px 20px 16px;
+    border-radius: 15px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 16px;
+} 
+.tag{
+    background-color: #883ae131;
+    color: #883AE1;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: bolder;
+    padding: 1% 5% 1% 5%;
+
+}
+.title{
+    font-size: 18px;
+
+}
+.corps{
+    font-size: 14px;
+
+}
+.small{
+    position: relative;
+    font-size: 12px;
+}
+.corps, .small, hr{
+    color: #6C727F
+}
+hr{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 9%;
+    left: 0;
+    right: 0;
+    background-color: #6c727f85;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
